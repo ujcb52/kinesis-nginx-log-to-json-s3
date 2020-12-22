@@ -1,0 +1,17 @@
+### mac
+.DS_Store
+._*
+
+### Terraform
+.terraform
+*.tfstate*
+terraform.tfstate
+terraform.tfvars
+
+### Python
+venv/
+.pyc
+
+### Others
+build/
+lambda_function.zip

@@ -76,7 +76,7 @@ Nginx Access Log를 수집하여 AWS Kenesis Stream에 전송을 목적으로 �
 
 ### 3. 설계
 
-![kinesis-firehose-s3](/Users/a1101167/Desktop/draw.io/kinesis-firehose-s3.png)
+![kinesis-firehose-s3](https://user-images.githubusercontent.com/48082577/102891888-5a946f00-44a2-11eb-8254-22d5cfafd566.png)
 
 (1) EC2에 설치된 Kinesis Agent에서 Nginx Access log를 Kinesis Stream으로 전송합니다.
 
