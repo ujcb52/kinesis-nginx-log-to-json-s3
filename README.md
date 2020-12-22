@@ -25,7 +25,7 @@ Nginx Access Log를 수집하여 AWS Kenesis Stream에 전송을 목적으로 �
    - 빠른 Put/Get의 처리. 데이터 인풋 파이프라인을 생성 및 운영하는 부담을 줄일 수 있습니다.
 
    - 스트림 데이터란?
-   
+
      대량의 데이터 소스(mobile or web-app)에서 연속적으로 생성되는 데이터를 작은 단위(KB)로 전송하는 것을 말합니다.
 <br/>
 
@@ -200,7 +200,7 @@ CONTAINER ID  IMAGE             COMMAND         CREATED     STATUS     PORTS    
 a1101167@11ST1101167MN001 localstack % aws configure                                                  
 AWS Access Key ID [****************test]: test
 AWS Secret Access Key [****************test]: test
-Default region name [ap-northeast-2]: ap-northeeast-2
+Default region name [ap-northeast-2]: ap-northeast-2
 Default output format [json]: json
 
 a1101167@11ST1101167MN001 localstack % aws --endpoint-url=http://localhost:4566 ec2 describe-instances
